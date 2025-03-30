@@ -1,9 +1,13 @@
 import './App.css';
+import React from 'react';
+import { Usuario } from './components/Usuario';
 
 function App() {
+
+  
   return (
-    <div className="App">
-    
+    <div>
+      <Usuario nombre = "Jasson", edad={27}, nacionalidad="Nicaragua"/>
     </div>
   );
 }
